@@ -1,0 +1,718 @@
+/*CSS HOME (MARCIA)*/
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #E6E6E6;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    height: 100vh;
+    color: #2E2E2E;
+}
+
+
+
+.navbar {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 0;
+    font-size: 16px !important;
+    color: white;
+}
+
+.nav>li>a {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 18px;
+    padding-top: 21px;
+}
+
+.nav-link {
+    white-space: nowrap;
+    margin-right: 25px;
+}
+
+.nav>li>a:focus,
+.nav>li>a:hover {
+
+    background: transparent;
+}
+
+.navbar-header {
+    display: inline-block;
+}
+
+.navbar-header img {
+    width: 200px;
+    margin: 10px 8px;
+}
+
+.navbar-header .foto-login {
+    width: 30px;
+    border-radius: 30px;
+}
+
+.carousel-inner>.item>img {
+    height: 100vh;
+}
+
+.nav .open>a,
+.nav .open>a:focus,
+.nav .open>a:hover {
+    background-color: #273140ab;
+
+}
+
+.menu-mobile {
+    display: none;
+    float: right;
+    border: none;
+    background-color: transparent;
+    font-size: 1.4em;
+    color: rgba(255, 255, 255, 0.6);
+    padding-top: 1vh;
+}
+
+.carousel-caption p {
+    color: white;
+    font-size: 20px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.carousel-caption .btn {
+    text-shadow: none;
+    background-color: #fff;
+    color: #4f4f4f;
+}
+
+.carousel-caption .btn:hover {
+    text-shadow: none;
+    background-color: #4f4f4fa8;
+    color: #fff;
+}
+
+/*CSS MODALIDADES (DANIEL)*/
+#modalidades{
+}
+.menu-suspenso {
+    margin-top: 65px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    display: inline-block;
+}
+
+
+
+.scrollDropdown {
+    height: 250px;
+    overflow: auto;
+}
+
+/* .procura {
+    display: inline-block;
+    margin-left: 60px;
+} */
+.procura input[type=text] {
+    width: 60vw;
+    height: 34px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('../img/searchicon.png');
+    background-size: 20px;
+    background-position: 5px 5px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+.procura input[type=text]:focus {
+    width: 90vw;
+}
+
+.sectionModalidades {
+    display: flex;
+    justify-content: center;
+}
+
+.tituloModalidade h4{
+    margin: 0px;
+    text-align: center;
+    font-size: 4.5em;
+    background: -webkit-linear-gradient(left, #1b9bdb, #84b331);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.botao_modalidades {
+    border-radius: 30px;
+    margin-top: 25px;
+    font-size: 1.5em;
+    color: #fff;
+    line-height: 1.2;
+    background: -webkit-linear-gradient(left, #1b9bdb, #84b331);
+}
+
+#modalidades .botao_modalidades{
+  display: none;
+  }
+
+.botao_modalidades:hover {
+    border-radius: 30px;
+    margin-top: 25px;
+    font-size: 1.5em;
+    color: #fff;
+    line-height: 1.2;
+    background: -webkit-linear-gradient(left, #1b9bdb, #84b331);
+}
+
+.logoMatchSports {
+    width: 3vw;
+    opacity: 1;
+    margin: 6px;
+}
+
+.conteudo p {
+    font-size: 3em;
+    margin-bottom: 325px;
+    color: #fff;
+}
+
+.carousel-inner img {
+    width: 100%;
+    /* Set width to 100% */
+    margin: auto;
+}
+
+.logotipos {
+    display: flex;
+    flex-wrap: wrap;
+    /* background-image: url('../img/logoBgMatchSports.png'); /*endereço URL da imagem*/
+    /* background-position:center; centraliza apenas o background - para não cortar    */
+    /* background-size: 520px 520px; */
+    /* background-repeat:no-repeat; para não repetir o background */
+    /* opacity: 1;*/
+}
+
+.logo {
+    width: 80px;
+    height: 125px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.logo img {
+    width: 100%;
+    height: 80px;
+    transition: 0.5s;
+}
+
+/* .logo a:hover {
+    color: transparent;
+} */
+
+.logo img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.caption h3 {
+    font-size: 1.2em;
+    margin: 0px;
+    text-decoration: none;
+    color: #4f4f4f;
+}
+
+/* CSS da Giseli - Saiba Mais */
+
+hr {
+    border-color: black;
+}
+
+#saiba-mais {
+    padding-top: 100px;
+    margin: 0 auto;
+}
+
+.texto-sm {
+    margin: 2em;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    align-content: center;
+}
+
+.imagem-sm1 {
+    align-items: center;
+    margin: 1em 0px 2em 0;
+    padding: 0 16px;
+
+}
+
+.imagem-sm2 {
+    margin: 18px 1em 0 0.3em;
+    padding: 0;
+}
+
+/* FIM DO SAIBA MAIS*/
+
+/* CSS da Gi - Fale Conosco novo*/
+
+.icones img {
+    width: 3em;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+
+#fale-conosco {
+    margin: 20px auto;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+
+input,
+select {
+    border-radius: 0 !important;
+}
+
+.panel.panel-default {
+    border-radius: 0;
+}
+
+.padding {
+    padding: 40px;
+}
+
+.no-padding {
+    padding: 0;
+    margin: 0;
+}
+
+.border-left {
+    border-left: 1px solid #ccc;
+}
+
+.badge {
+    margin-left: 5px;
+    background-color: #5bc0de;
+}
+
+.badge a {
+    color: #fff;
+}
+
+.banner {
+    background-image: url("../img/grupo2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 35vw;
+    margin-bottom: -1px;
+
+}
+
+.container-fc {
+    margin-bottom: 0.8em;
+
+}
+
+.limpar,
+.enviar {
+    float: right;
+    margin: 20px 5px 0 0;
+}
+
+.enviar {
+    margin: 20px 0 0 0;
+}
+
+/* FIM CSS da Gi - Fale Conosco novo */
+
+
+
+/*CSS FOOTER (MARCIA)*/
+
+footer {
+    /* position: fixed; */
+    z-index: 10;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    align-content: flex-end;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    letter-spacing: 3px;
+    height: 10vh;
+}
+
+footer p {
+    font-size: 18px;
+    color: #f5f5f5;
+    /* margin-left: 80px; */
+}
+
+
+.text-center {
+    padding: 5px 0 5px 0;
+}
+
+
+/*CSS LOGIN (EDU)*/
+
+#login-dp {
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#login-dp .help-block {
+    font-size: 12px
+}
+
+#login-dp .bottom {
+    background-color: rgba(0, 0, 0, 0.4);
+    clear: both;
+    padding: 14px;
+}
+
+#login-dp .social-buttons {
+    margin: 12px 0
+}
+
+#login-dp .social-buttons a {
+    width: 49%;
+}
+
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+
+.btn-fb {
+    color: #fff;
+    background-color: #3b5998;
+}
+
+.btn-fb:hover {
+    color: #fff;
+    background-color: #496ebc
+}
+
+.btn-tw {
+    color: #fff;
+    background-color: #eb0854;
+}
+
+.btn-tw:hover {
+    color: #fff;
+    background-color: #59b5fa;
+}
+
+.btn-logout {
+    padding: 0px;
+    margin: 10px auto;
+}
+
+.menu-logado {
+    list-style: none;
+}
+
+.menu-logado li {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.6);
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .25);
+}
+
+
+/* FORMULÁRIO cadastro*/
+
+#formulario {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 60px;
+}
+
+#formulario-post {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#estado {
+    border: 1px solid #ccc;
+    height: 34px;
+}
+
+.alert-danger {
+    margin-top: 60px;
+}
+
+
+
+/* Pagina Login */
+
+#paginaLogin {
+    position: relative;
+}
+
+#paginaLogin .card-login {
+    border-top-left-radius: 100px;
+    border-top: 5px solid #25a1dd;
+    border-bottom-right-radius: 100px;
+    border-bottom: 5px solid #a4cb5b;
+    padding: 35px;
+    width: 650px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: -35px;
+}
+
+#paginaLogin .bottom {
+    margin-top: 20px;
+}
+
+
+
+/* Página POST */
+.post {
+    width: 250px;
+    text-align:center;
+    font-style: normal;
+    margin-top: 100px;
+}
+
+.post-evento {
+    width: 250px;
+    text-align:center;
+    font-style: normal;
+    margin-top: 0px;
+}
+
+/* novo post */
+.view-post {
+    margin-left: 20px;
+    display: inline;
+    min-height: 90vh;
+}
+
+.view-post a:focus, .view-post a:hover {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.chat {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.chat li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #B3A9A9;
+}
+
+.chat .img-circle {
+    display: inline-block;
+    padding: 10px 0;
+    width: 60px;
+    height: 80px;
+}
+
+.texto-chat2 {
+    margin-left: 55em;
+    margin-right: 88em;
+
+}
+
+.chat-body {
+    width: calc(100% - 60px);
+    float: right;
+    padding-left: 10px;
+}
+
+.dentrochat {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.panel-chat {
+    /* background-image: url("../img/logoBgMatchSports.png");
+    background-position: center;
+    background-attachment:scroll;
+    background-position:center center;
+    background-size:contain;
+    background-repeat:no-repeat; */
+    overflow-y: scroll;
+    height: 50vh;
+    padding: 15px;
+}
+
+.painel-primario{
+  border-top-left-radius: 125px;
+  border-top: 10px solid #25a1dd;
+  border-bottom-right-radius: 125px;
+  border-bottom: 10px solid #a4cb5b;
+  border-left: none;
+  border-right: none;
+  padding: 35px;
+  margin-top: 70px;
+  }
+
+
+.photo-chat {
+    /* max-width: 150px; */
+    max-height: 80px;
+    width: auto;
+    height: auto;
+}
+
+.chat-logo {
+    max-height: 250px;
+    width: auto;
+    height: auto;
+}
+
+.btn-chat {
+  color: white;
+  background: -webkit-linear-gradient(45deg, #83b230, #008dd4);
+}
+.btn-chat:hover {
+  color: white;
+  background: -webkit-linear-gradient(45deg, #83b230, #008dd4);
+}
+.btn-chat:active {
+  color: white;
+  background: -webkit-linear-gradient(45deg, #83b230, #008dd4);
+}
+.btn-chat:focus {
+  color: white;
+  background: -webkit-linear-gradient(45deg, #83b230, #008dd4);
+}
+
+@media(max-width:1200px) {
+    .carousel-inner>.item>img {
+        height: auto;
+    }
+  }
+@media(max-width:900px){
+  .navbar-header img {
+  width: 160px;
+  margin: 16px 8px;
+}
+
+.nav>li>a {
+    font-size: 15px;
+    padding-top: 24px;
+    padding-left: 0px;
+}
+.view-chat{
+  width: 95%;
+}
+
+.view-logo{
+  display: none;
+}
+}
+@media(max-width:767px) {
+    #login-dp {
+        background-color: inherit;
+        color: #fff;
+    }
+
+    #login-dp .bottom {
+        background-color: inherit;
+        border-top: 0 none;
+    }
+
+
+    .menu-mobile {
+        display: inline-block;
+        padding-top: 14px;
+    }
+
+    .carousel-inner .carousel-caption button {
+        display: none;
+    }
+
+    .carousel-inner .carousel-caption p {
+        display: none;
+    }
+
+    .carousel-inner>.item>img {
+        height: auto;
+    }
+}
+
+@media(max-width:464px){
+  .sectionModalidades{
+    display: none;
+  }
+
+  #modalidades .botao_modalidades{
+    display: inherit;
+  }
+
+  .painel-primario {
+    padding-bottom: 0px;
+}
+
+  .view-chat {
+      padding-left: 0px;
+  }
+
+.footer-painel{
+  background: transparent;
+}
+  .span-btn-enviar{
+    display: inline;
+  }
+
+  .btn-enviar{
+    margin-top: 10px;
+    border-radius: 50px !important;
+    width: 100%;
+  }
+}
+
+@media(min-width:320px) and (max-width:1024px) {
+    .imagem-sm1 {
+        display: none;
+    }
+
+    .banner {
+        height: 45vw;
+    }
+}
